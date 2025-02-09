@@ -25,9 +25,20 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url("https://www.danielle-moss.com/wp-content/uploads/2023/01/Valentines-Tech-Backgrounds10-800x450.png");
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  margin-right: 20px;
 }
 
 h1 {
@@ -35,6 +46,9 @@ h1 {
   line-height: 1.1;
 }
 
+.submit {
+  margin-top: 2px;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
